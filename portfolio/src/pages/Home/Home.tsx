@@ -1,4 +1,5 @@
 
+import NavBar from "../NavBar/NavBar"
 import Hero from "./Hero/Hero"
 
 const Home = ()=> {
@@ -7,7 +8,8 @@ const Home = ()=> {
 
     return (
       <>
-       <Hero/>
+      <NavBar/>
+      <Hero/>
       </>
     )
   }
